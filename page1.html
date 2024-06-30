@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width-device-width, initial-scale=1.0">
+<title>Personal Portfolio</title>
+
+<link rel="stylesheet" href="pagestyle.css">
+   <script src="https://kit.fontawesome.com/e914e1ac68.js" crossorigin="anonymous"></script>
+   <script src="script.js" defer></script>
+      </head>
+<body>
+ 
+
+        <label class="toggle">
+            <input type="checkbox" onclick="toggleMode()">
+            <span class="slider"></span>
+        </label>
+        
+        <script src="script.js"></script>
+    
+
+
+
+
+
+
+
+<div id="header">
+         <div class="container">
+    <nav>
+        <img src="images/logo - Copy.jpg" class="logo">
+    <ul>
+     
+        <li> <a href="#header">Home</a> </li>
+        <li> <a href="#about">About</a> </li>
+        <li> <a href="#projects">Projects</a> </li>
+        <li> <a href="#contact">Contact</a> </li>
+    </ul>
+    </nav>
+    <div class="header-text">
+                <p>Student/UG</p>
+                <h1>Hi,I am <span>Musabiha</span><br>Maryam</h1>
+              </div>
+
+     </div>
+     </div>
+
+          <!-- ---------------------about----------------------->
+    <div id="about">
+     
+       <div class="container">
+         <div class="row">
+            <div class="about-column-1">
+             <img src="images/IMG-20240630-WA0021[1].jpg">  </div>
+           
+              <div class="about-column-1">
+              
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Hi, I am Musabiha, a dedicated undergraduate student studying Bs Software Engineering.
+                    I have a passion for Web development and coding, and I am excited to learn and growin my field.
+                    My goal is bring vastness in the software engineering field.
+                </p>
+                
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')"> Skills</p>
+                <p class="tab-links"onclick="opentab('Experience')"> Experience</p>
+                <p class="tab-links"onclick="opentab('Education')"> Education</p>
+               </div>
+              <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                    <li><span>Editing</span><br>Designing a web page </li>
+                    <li><span>Html</span><br>Designing Web App Interfaces</li>
+                    <li><span>C++</span><br>Designing C++ interfaces</li>
+                </ul>
+             
+            </div> 
+            <div class="tab-contents"id="Experience">
+                <ul>
+                    <li><span>2022-2023</span><br>Exceutive director </li>
+                    <li><span>2021-2023</span><br>Designer at Web App Interfaces coorparation</li>
+                    <li><span>2019-2023</span><br>Developer C++ coorparation</li>
+                </ul>
+             
+            </div>
+            <div class="tab-contents"id="Education">
+                <ul>
+                    <li><span>2020</span><br>Matric </li>
+                    <li><span>2023</span><br>Fsc</li>
+                    <li><span>2024-present</span><br>Bachelors</li>
+                </ul>
+             
+        </div>
+        </div>
+        </div>      
+        </div>
+        </div>
+ <!-- ---------------------services/Projects---------------------->
+  
+   <div id="projects">
+     <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+            <p>As an undergraduate student studying software engineering with a knack for web design, 
+            I've been working on some cool projects. One of my recent projects involved creating a responsive website from scratch using HTML, CSS, and JavaScript.
+            I focused on user experience and interface design to make the site both visually appealing and functional. I also integrated some backend functionalities to enhance the site's performance. It was a great hands-on experience that allowed me to apply what I've learned in my courses. 
+            Can't wait to dive into more web design projects in future!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-house-laptop"></i>
+                <h2>IOT device</h2>
+            <p>I created a burglar alarm system sensor that detects motion and triggers an alarm to notify of any unauthorized entry. 
+            The sensor enhances security by alerting homeowners of potential intrusions, providing peace of mind. 
+            It combines technology and innovation to protect homes effectively."</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-vr-cardboard"></i>
+                <h2>Virtual pet</h2>
+            <p>I developed a virtual pet using C++. The virtual pet simulates interactions like feeding, playing, and taking care of a digital companion. 
+            It's a fun and engaging project that combines programming skills with creativity, offering a virtual experience of owning and caring for a pet.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+    
+    
+    </div>
+    </div>
+    </div>
+<!-- ---------------------contact info----------------------- -->
+<div id="contact">
+   <div class="container">
+      <div class="row">
+        
+        <div class="contact-left">
+           <h1 class="sub-title">Contact Me</h1>
+           <p><i class="fa-solid fa-envelope"></i> contact@mms123.com</p>
+           <p><i class="fa-solid fa-phone"></i> +92-0000111780</p>
+           <div class="social-icons"> 
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://m.twitter.com/login"><i class="fa-brands fa-x-twitter"></i></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></i></a>
+            <a href="https://www.linkedin.com/onboarding/start/open-to-job-opportunity/new/"><i class="fa-brands fa-linkedin"></i></i></a>   
+        
+        </div>
+            
+        </div>
+        <div class="contact-right">
+               <form>
+                <input type="text" name="Name" placeholder="Write Your Name Here" required>
+                <input type="email" name="email" placeholder="Enter Your email Here " required>
+                <textarea name="Message" rows="6" placeholder="Write Your Message Here"></textarea>
+                <button type="submit" class="button">Submit </button>
+
+
+
+ 
+            
+           </form>
+
+        </div>
+
+
+
+      </div>
+     
+
+   </div>
+
+
+<div class="copyright">
+    <p> copyright<i class="fa-regular fa-copyright"></i>.Musabiha</p>
+</div>
+
+</div>
+
+
+
+
+
+
+<script>   
+         var tablinks= document.getElementsByClassName("tab-links");
+         var tabcontents= document.getElementsByClassName("tab-contents");
+          
+         function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+
+         }
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
